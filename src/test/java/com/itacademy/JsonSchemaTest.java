@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class jsonSchemaTest {
+public class JsonSchemaTest {
     @BeforeTest
     public void setUp() {
         RestAssured.baseURI = "https://reqres.in";
